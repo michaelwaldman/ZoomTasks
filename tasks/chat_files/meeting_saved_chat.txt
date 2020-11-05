@@ -1,7 +1,35 @@
 18:25:10	 From Itay Golan : hi
 18:25:22	 From Michael Waldman : hi
 18:36:50	 From Itay Golan : Alright welcome everyone
-18:36:57	 From Itay Golan : Buy groceries #michael
-18:37:03	 From Itay Golan : Finish backend #itay
-18:37:09	 From Itay Golan : Send email to HR #today
-18:37:15	 From Itay Golan : Finish frontend #michael
+18:36:57	 From Itay Golan : Buy groceries #Michael
+18:37:03	 From Itay Golan : Finish backend #Itay
+18:37:09	 From Itay Golan : Send email to HR #Today
+18:37:15	 From Itay Golan : Finish frontend #Michael
+18:38:16	 From Michael Waldman : Contact group #Itay
+18:40:30	 From Itay Golan : Group is here
+18:42:18	 From Itay Golan : Create test data #Daniel
+18:45:20	 From Daniel Chou : Update parser #Daniel
+18:46:16	 From Sean Zhang : Hello
+18:49:42	 From Andrew Kim : hi
+18:49:50	 From Andrew Kim : I can bugtest later
+18:50:30	 From Andrew Kim : bugtesting #Andrew
+18:55:55	 From Sean Zhang : Email professor #Sean
+19:03:54	 From Michael Waldman : Fill out forms #Michael
+19:06:06	 From Itay Golan : Review Github PRs #Itay
+20:16:22	 From Sean Zhang : Fix garbage data #Sean
+20:30:30	 From Andrew Kim : Contact other groups #Andrew
+20:40:30	 From Daniel Chou : Work on CSS #Daniel
+20:45:17	 From Itay Golan : Work on JSON bug #Sean
+20:46:19	 From Michael Waldman : Help with bugfixing #Itay
+20:47:19	 From Daniel Chou : Ok
+20:50:20	 From Andrew Kim : Test build after fixes #Andrew
+20:52:30	 From Sean Zhang : Push build to branch #Andrew
+20:55:28	 From Itay Golan : Finish up url page #Itay
+21:03:42	 From Michael Waldman : update README #Michael
+21:05:31	 From Daniel Chou : update index.html for frontend #Daniel
+21:10:23	 From Sean Zhang : Present to professor during meeting #Sean
+21:10:40	 From Itay Golan : Good work everyone have a good night
+21:10:45	 From Daniel Chou : gn
+21:10:48	 From Sean Zhang : good night
+21:11:05	 From Michael Waldman : good night
+21:11:10	 From Andrew Kim : good night
