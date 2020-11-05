@@ -12,7 +12,7 @@ class TaskTextParser:
             if '#' not in message:
                 continue
             task, person = message.split('#')
-            self.nodes[person].append(task)
+            self.nodes[person.strip()].append(task.strip()) # strip whitespaces from messages
     
     def getTasks(self):
         self._parse()
