@@ -9,10 +9,9 @@ class TaskTextParser:
         for line in self.file:
             line = line.split(":")
             message = line[3]
-            print(message)
             if '#' not in message:
                 continue
-            task, person = message.split('#') # finish backend , itay
+            task, person = message.split('#')
             self.nodes[person].append(task)
     
     def getTasks(self):
