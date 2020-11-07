@@ -4,7 +4,7 @@ class TaskTextParser:
     def __init__(self, f):
         self.file = f
         self.nodes = defaultdict(list)
-    
+
     def _parse(self):
         for line in self.file:
             line = line.split(":")
@@ -13,11 +13,11 @@ class TaskTextParser:
                 continue
             task, person = message.split('#')
             self.nodes[person.strip()].append(task.strip()) # strip whitespaces from messages
-    
+
     def getTasks(self):
         self._parse()
         return self.nodes
-    
+
     def sendEmail(self):
         #TODO
         pass
