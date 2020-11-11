@@ -2,6 +2,9 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+ul {
+    list-style-type: none;
+}
 table {
   border: 1px solid #ccc;
   border-collapse: collapse;
