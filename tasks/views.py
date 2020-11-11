@@ -13,7 +13,7 @@ def homePageView(request):
     tasks = t.getTasks()
     tData = json.dumps(tasks)
     tableData = json2html.convert(json = tData)
-    line_index = 8
+    line_index = 10
     lines = None
     with open("homepage.html", 'r') as file:
         lines = file.readlines()
