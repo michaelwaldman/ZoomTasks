@@ -16,16 +16,6 @@ def homePageView(request):
     t = TaskTextParser(FILE)
     tasks = t.getTasks()
     tData = json.dumps(tasks)
-    tableData = json2html.convert(json = tData)
-    line_index = 10
-    lines = None
-    with open("homepage.html", 'r') as file:
-        lines = file.readlines()
-
-    lines[line_index] = tableData
-
-    with open("homepage.html", "w") as file:
-        file.writelines(lines)
     return HttpResponse(tData)
 
 def emailView(request):
@@ -42,5 +32,12 @@ def emailView(request):
     send_mail('Your Zoom Task List', plain_msg, from_email, [user_email], html_message=html_msg)
 
     return HttpResponse(request.GET.get('email'))
+
 class RenderedTaskView(TemplateView):
     template_name = 'home.html'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        tasks = TaskTextParser(FILE).getTasks()
+        context['users'] = dict(tasks)
+        return context

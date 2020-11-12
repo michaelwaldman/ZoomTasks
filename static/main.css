@@ -1,0 +1,23 @@
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px;
+}
+
+.cards {
+  height: auto;
+  width: 400px;
+  margin: 20px;
+  align-self: flex-start;
+}
+
+.cardTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formContainer {
+  justify-content: right;
+}
