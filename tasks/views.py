@@ -26,10 +26,14 @@ def emailView(request):
     print(user_email)
     html_msg = json2html.convert(json = tData)
     plain_msg = strip_tags(html_msg)
-    from_email='zoomtasks@zoombot.org'
-
+    from_email='ans_stmp_server@outlook.com'
     
-    send_mail('Your Zoom Task List', plain_msg, from_email, [user_email], html_message=html_msg)
+    send_mail(
+        'Your Zoom Task List', 
+        plain_msg, 
+        from_email, 
+        [user_email], 
+        html_message=html_msg)
 
     return HttpResponse(request.GET.get('email'))
 

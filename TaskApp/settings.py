@@ -119,3 +119,10 @@ STATICFILES_DIRS = ['static/', '/static/']
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp-mail.outlook.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'ans_stmp_server@outlook.com'
+EMAIL_HOST_PASSWORD = 'AugmentedNext'
+EMAIL_USE_TLS = True
