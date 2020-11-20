@@ -10,7 +10,7 @@ from django.core.mail import send_mail
 from django.utils.html import strip_tags
 
 d = os.getcwd()
-FILE = open(d+"/tasks/chat_files/meeting_saved_chat.txt", "r")
+FILE = open(d+"/tasks/chat_files/meeting_saved_chat2.txt", "r")
 
 def homePageView(request):
     t = TaskTextParser(FILE)
@@ -44,6 +44,8 @@ class RenderedTaskView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        tasks = TaskTextParser(FILE).getTasks()
+        t = TaskTextParser(FILE)
+        tasks = t.getTasks()
+        t.sendEmail()
         context['users'] = dict(tasks)
         return context

@@ -1,0 +1,11 @@
+17:55:06	 From Itay Golan : Finish up question 1 #daniel
+17:55:11	 From Michael Waldman : Finish report #michael
+17:55:17	 From Itay Golan : Start question 2 #itay
+17:55:20	 From Michael Waldman : Start question 4 on the FRQ #andrew
+17:55:28	 From Itay Golan : Create plots #andrew
+17:55:33	 From Michael Waldman : Review Parsing Problem #daniel
+17:55:46	 From Itay Golan : Start question 3 #itay
+17:56:00	 From Michael Waldman : Submit final project #itay
+17:56:07	 From Itay Golan : Start question 3 #itay --remove
+17:56:22	 From Michael Waldman : Start question 3 #sean
+17:56:30	 From Itay Golan : Finish question 4 #michael

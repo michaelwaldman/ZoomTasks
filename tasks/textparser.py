@@ -1,9 +1,32 @@
 from collections import defaultdict
+import re
+import json
+from json2html import *
+from django.core.mail import send_mail
+from django.utils.html import strip_tags
 
 class TaskTextParser:
     def __init__(self, f):
         self.file = f
         self.nodes = defaultdict(list)
+        self.emails = defaultdict(str) # person to hashtag
+    
+    def is_valid_email(self, email):  
+        if(re.search(r"[^@]+@[^@]+\.[^@]+",email)):  
+            return True
+        return False
+    
+    # def getEmails(self):
+    #     for line in self.file:
+    #         line = line.split(":")
+    #         message = line[3]
+    #         if '#' not in message:
+    #             continue
+    #         email, person = message.split('#')
+    #         email, person = email.strip(), person.strip()
+    #         if self.is_valid_email(email):
+    #             self.emails[email] = person
+    #     return self.emails
 
     def _parse(self):
         for line in self.file:
@@ -17,13 +40,30 @@ class TaskTextParser:
             if len(person_list) > 1 and person_list[1] == '--remove':
                 if task in self.nodes[person_list[0]]:
                     self.nodes[person_list[0]].remove(task)
+            elif self.is_valid_email(task):
+                self.emails[task] = person
             else:
                 self.nodes[person.strip()].append(task.strip()) # strip whitespaces from messages
 
     def getTasks(self):
         self._parse()
         return self.nodes
-
+    
     def sendEmail(self):
-        #TODO
-        pass
+        tasks = self.getTasks()
+        emails = self.emails
+        from_email='ans_stmp_server@outlook.com'
+
+        for user_email in emails:
+            data = tasks[emails[user_email]]
+            message = "Your tasks from the latest Zoom meeting are as follows: \n\n"
+            for i, task in enumerate(data):
+                message += str(i+1) + '. ' + task + '\n'
+            send_mail(
+                'Your Zoom Task List', 
+                message, 
+                from_email, 
+                [user_email], 
+                #html_message=tData,
+            )
+            print("sent")
