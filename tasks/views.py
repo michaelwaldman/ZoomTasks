@@ -23,17 +23,19 @@ def emailView(request):
     tasks = t.getTasks()
     tData = json.dumps(tasks)
     user_email = request.GET.get('email')
-    print(user_email)
+    #print(user_email)
     html_msg = json2html.convert(json = tData)
+    #html_message = render_to_string(html_msg, {'context': 'values'})
     plain_msg = strip_tags(html_msg)
     from_email='ans_stmp_server@outlook.com'
     
     send_mail(
         'Your Zoom Task List', 
-        plain_msg, 
+        tData, 
         from_email, 
         [user_email], 
-        html_message=html_msg)
+        #html_message=tData,
+        )
 
     return HttpResponse(request.GET.get('email'))
 
