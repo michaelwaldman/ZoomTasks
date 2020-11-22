@@ -10,7 +10,7 @@ from django.core.mail import send_mail
 from django.utils.html import strip_tags
 
 d = os.getcwd()
-FILE = open(d+"/tasks/chat_files/meeting_saved_chat2.txt", "r")
+FILE = open(d+"/tasks/chat_files/meeting_saved_chat.txt", "r")
 
 def homePageView(request):
     t = TaskTextParser(FILE)
@@ -28,12 +28,12 @@ def emailView(request):
     #html_message = render_to_string(html_msg, {'context': 'values'})
     plain_msg = strip_tags(html_msg)
     from_email='ans_stmp_server@outlook.com'
-    
+
     send_mail(
-        'Your Zoom Task List', 
-        tData, 
-        from_email, 
-        [user_email], 
+        'Your Zoom Task List',
+        tData,
+        from_email,
+        [user_email],
         #html_message=tData,
         )
 

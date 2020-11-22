@@ -1,35 +1,27 @@
-18:25:10	 From Itay Golan : hi
-18:25:22	 From Michael Waldman : hi
-18:36:50	 From Itay Golan : Alright welcome everyone
-18:36:57	 From Itay Golan : Buy groceries #Michael
-18:37:03	 From Itay Golan : Finish backend #Itay
-18:37:09	 From Itay Golan : Send email to HR #Today
-18:37:15	 From Itay Golan : Finish frontend #Michael
-18:38:16	 From Michael Waldman : Contact group #Itay
-18:40:30	 From Itay Golan : Group is here
-18:42:18	 From Itay Golan : Create test data #Daniel
-18:45:20	 From Daniel Chou : Update parser #Daniel
-18:46:16	 From Sean Zhang : Hello
-18:49:42	 From Andrew Kim : hi
-18:49:50	 From Andrew Kim : I can bugtest later
-18:50:30	 From Andrew Kim : bugtesting #Andrew
-18:55:55	 From Sean Zhang : Email professor #Sean
-19:03:54	 From Michael Waldman : Fill out forms #Michael
-19:06:06	 From Itay Golan : Review Github PRs #Itay
-20:16:22	 From Sean Zhang : Fix garbage data #Sean
-20:30:30	 From Andrew Kim : Contact other groups #Andrew
-20:40:30	 From Daniel Chou : Work on CSS #Daniel
-20:45:17	 From Itay Golan : Work on JSON bug #Sean
-20:46:19	 From Michael Waldman : Help with bugfixing #Itay
-20:47:19	 From Daniel Chou : Ok
-20:50:20	 From Andrew Kim : Test build after fixes #Andrew
-20:52:30	 From Sean Zhang : Push build to branch #Andrew
-20:55:28	 From Itay Golan : Finish up url page #Itay
-21:03:42	 From Michael Waldman : update README #Michael
-21:05:31	 From Daniel Chou : update index.html for frontend #Daniel
-21:10:23	 From Sean Zhang : Present to professor during meeting #Sean
-21:10:40	 From Itay Golan : Good work everyone have a good night
-21:10:45	 From Daniel Chou : gn
-21:10:48	 From Sean Zhang : good night
-21:11:05	 From Michael Waldman : good night
-21:11:10	 From Andrew Kim : good night
+16:11:03	 From  Sean Zhang : Hi
+16:11:06	 From  Daniel Chou : hello
+16:11:10	 From  Andrew : hey
+16:11:13	 From  Daniel Chou : everyone put your emails in
+16:11:17	 From  Sean Zhang : shaochengzhang2021@u.northwestern.edu #Sean
+16:11:31	 From  Daniel Chou : danielchou2021@u.northwestern.edu #Daniel
+16:11:33	 From  Andrew : andrewkim2021@u.northwestern.edu #Andrew
+16:12:10	 From  Daniel Chou : Fix up emailing bug #Daniel
+16:12:29	 From  Sean Zhang : Test stmp server #Sean
+16:12:33	 From  Andrew : Refactor some of the emailing code #Sean
+16:12:49	 From  Daniel Chou : Send email to other groups #Andrew
+16:13:22	 From  Daniel Chou : do you know the other group leader's email?
+16:13:37	 From  Andrew : yeah
+16:13:39	 From  Daniel Chou : ok
+16:14:05	 From  Sean Zhang : Daniel, the email bugs were fixed
+16:14:09	 From  Daniel Chou : oh ok
+16:14:11	 From  Sean Zhang : Do you need me to remove the task?
+16:14:35	 From  Daniel Chou : Fix up emailing bug #Daniel --remove
+16:14:37	 From  Daniel Chou : I got it
+16:14:39	 From  Sean Zhang : Cool
+16:14:40	 From  Andrew : awesome
+16:15:04	 From  Andrew : Finish frontend #Andrew
+16:15:11	 From  Andrew : wait nvm we're not doing frontend
+16:15:29	 From  Andrew : Finish frontend #Andrew --remove
+16:15:29	 From  Sean Zhang : Prepare the final presentation #Sean
+16:15:50	 From  Daniel Chou : Set up next meeting for everyone #Daniel
+16:16:02	 From  Daniel Chou : ok good job everyone
