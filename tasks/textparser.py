@@ -60,7 +60,7 @@ class TaskTextParser:
         for user_email in emails:
             data = tasks[emails[user_email]]
             message = "Thanks for using Follow Ups! on Zoom. Your tasks from your Zoom meeting with Itay, Sean, and Andrew from " + now.strftime("%Y-%m-%d %H:%M:%S") + " are as follows: \n\n"
-            title = 'Daniel, your task list from your ' + now.strftime("%Y-%m-%d %H:%M:%S") + ' Zoom Meeting'
+            title = emails[user_email] + ', your task list from your ' + now.strftime("%Y-%m-%d %H:%M:%S") + ' Zoom Meeting'
             for i, task in enumerate(data):
                 message += str(i+1) + '. ' + task + '\n'
             send_mail(
@@ -70,4 +70,4 @@ class TaskTextParser:
                 [user_email], 
                 #html_message=tData,
             )
-            print("sent")
+            print("Email sent")
