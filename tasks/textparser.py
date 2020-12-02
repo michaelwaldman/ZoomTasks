@@ -31,7 +31,8 @@ class TaskTextParser:
     def _parse(self):
         for line in self.file:
             line = line.split(":")
-            message = line[3]
+            if len(line) > 3:
+                message = line[3]
             if '#' not in message:
                 continue
             task, person = message.split('#')

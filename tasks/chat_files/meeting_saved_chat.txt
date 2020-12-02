@@ -1,27 +1,25 @@
-16:11:03	 From  Sean Zhang : Hi
-16:11:06	 From  Daniel Chou : hello
-16:11:10	 From  Andrew : hey
-16:11:13	 From  Daniel Chou : everyone put your emails in
-16:11:17	 From  Sean Zhang : shaochengzhang2021@u.northwestern.edu #Sean
-16:11:31	 From  Daniel Chou : danielchou2021@u.northwestern.edu #Daniel
-16:11:33	 From  Andrew : andrewkim2021@u.northwestern.edu #Andrew
-16:12:10	 From  Daniel Chou : Fix up emailing bug #Daniel
-16:12:29	 From  Sean Zhang : Test stmp server #Sean
-16:12:33	 From  Andrew : Refactor some of the emailing code #Sean
-16:12:49	 From  Daniel Chou : Send email to other groups #Andrew
-16:13:22	 From  Daniel Chou : do you know the other group leader's email?
-16:13:37	 From  Andrew : yeah
-16:13:39	 From  Daniel Chou : ok
-16:14:05	 From  Sean Zhang : Daniel, the email bugs were fixed
-16:14:09	 From  Daniel Chou : oh ok
-16:14:11	 From  Sean Zhang : Do you need me to remove the task?
-16:14:35	 From  Daniel Chou : Fix up emailing bug #Daniel --remove
-16:14:37	 From  Daniel Chou : I got it
-16:14:39	 From  Sean Zhang : Cool
-16:14:40	 From  Andrew : awesome
-16:15:04	 From  Andrew : Finish frontend #Andrew
-16:15:11	 From  Andrew : wait nvm we're not doing frontend
-16:15:29	 From  Andrew : Finish frontend #Andrew --remove
-16:15:29	 From  Sean Zhang : Prepare the final presentation #Sean
-16:15:50	 From  Daniel Chou : Set up next meeting for everyone #Daniel
-16:16:02	 From  Daniel Chou : ok good job everyone
+20:05:12	 From  Daniel Chou : danielchou2021@u.northwestern.edu #Daniel
+20:05:13	 From  Andrew Kim : andrewkim2021@u.northwestern.edu #Andrew
+20:05:14	 From  Sean Zhang : shaochengzhang2021@u.northwestern.edu #Sean
+20:05:15	 From  Itay Golan : itaygolan2021@u.northwestern.edu #Itay
+20:05:33	 From  Andrew Kim : Start on the presentation #Andrew
+20:05:42	 From  Itay Golan : Start on the presentation #Andrew --remove
+20:05:47	 From  Itay Golan : Start on the presentation #Daniel
+20:05:56	 From  Sean Zhang : Get some more people to prototype #Sean
+20:06:14	 From  Itay Golan : Add more figures to the excel #Daniel
+20:06:21	 From  Itay Golan : Add figures to slides  #Daniel
+20:07:16	 From  Sean Zhang : Send client a copy of the report before the meeting #DanielGet some more coworkers to demo the prototype #Daniel
+20:09:27	 From  Itay Golan : Andrew I think your audio cut out
+20:09:38	 From  Andrew Kim : oh shoot
+20:09:44	 From  Andrew Kim : is it working now
+20:09:54	 From  Sean Zhang : I can hear you
+20:10:07	 From  Andrew Kim : awesome
+20:10:09	 From  Itay Golan : Address client’s final comments from last meeting #Andrew
+20:10:40	 From  Andrew Kim : Reach out to client one last time before final presentation #Andrew
+20:11:18	 From  Itay Golan : We should have Sean reach out before the meeting with a confirmation that everything's ready to go
+20:11:29	 From  Sean Zhang : Yeah, I can take that
+20:11:52	 From  Daniel Chou : confirm meeting #Sean
+20:12:42	 From  Itay Golan : Run through the presentation a few times #Daniel
+20:12:49	 From  Itay Golan : This meeting is super important
+20:16:18	 From  Daniel Chou : Reach out to Michael about today's meeting
+20:17:00	 From  Daniel Chou : Reach out to Michael about today's meeting #Daniel
