@@ -4,6 +4,7 @@ import json
 from json2html import *
 from django.core.mail import send_mail
 from django.utils.html import strip_tags
+import datetime
 
 class TaskTextParser:
     def __init__(self, f):
@@ -54,14 +55,16 @@ class TaskTextParser:
         tasks = self.getTasks()
         emails = self.emails
         from_email='ans_stmp_server@outlook.com'
+        now = datetime.datetime.now()
 
         for user_email in emails:
             data = tasks[emails[user_email]]
-            message = "Thanks for using Follow Ups! on Zoom. Your tasks from your Zoom meeting with Itay, Sean, and Andrew from 12/1/2020 at 7:23 PM are as follows: \n\n"
+            message = "Thanks for using Follow Ups! on Zoom. Your tasks from your Zoom meeting with Itay, Sean, and Andrew from " + now.strftime("%Y-%m-%d %H:%M:%S") + " are as follows: \n\n"
+            title = 'Daniel, your task list from your ' + now.strftime("%Y-%m-%d %H:%M:%S") + ' Zoom Meeting'
             for i, task in enumerate(data):
                 message += str(i+1) + '. ' + task + '\n'
             send_mail(
-                'Daniel, your task list from your 12/1/20 7:23 PM Zoom Meeting', 
+                title, 
                 message, 
                 from_email, 
                 [user_email], 
