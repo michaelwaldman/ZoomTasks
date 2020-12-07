@@ -68,6 +68,5 @@ class TaskTextParser:
                 message, 
                 from_email, 
                 [user_email], 
-                #html_message=tData,
             )
             print("Email sent")
